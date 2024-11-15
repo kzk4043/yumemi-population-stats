@@ -1,14 +1,15 @@
-name: Assign author to PR
+# .github/workflows/auto-author-assign.yml
+name: Auto Author Assign
 
 on:
-  pull_request:
-    types: [opened]
+  pull_request_target:
+    types: [ opened ]
+
+permissions:
+  pull-requests: write
 
 jobs:
-  assign:
-    # DependabotのPRは除外
-    if: github.actor != 'dependabot[bot]'
+  assign-author:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
-      - uses: toshimaru/auto-author-assign@v2.1.0
+      - uses: toshimaru/auto-author-assign@v2.1.1
