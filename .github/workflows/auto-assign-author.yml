@@ -1,0 +1,14 @@
+name: Assign author to PR
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  assign:
+    # DependabotのPRは除外
+    if: github.actor != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: toshimaru/auto-author-assign@v2.1.0
