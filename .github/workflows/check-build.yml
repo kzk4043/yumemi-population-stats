@@ -1,4 +1,4 @@
-name: build-check
+name: check build
 on:
   push:
   # 手動実行設定
