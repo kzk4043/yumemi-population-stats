@@ -9,16 +9,8 @@ const config = {
       value: ":art: improve",
     },
     {
-      name: "update:   🩹 軽微な修正",
-      value: ":adhesive_bandage: update",
-    },
-    {
       name: "fix:      🐛 バグ修正",
       value: ":bug: fix",
-    },
-    {
-      name: "hotfix:   🚑 緊急バグ修正",
-      value: ":ambulance: hotfix",
     },
     {
       name: "refactor: ♻️ リファクタリング",
@@ -37,10 +29,6 @@ const config = {
       value: ":memo: docs",
     },
     {
-      name: "move:     🚚 ファイルやディレクトリの移動",
-      value: ":truck: move",
-    },
-    {
       name: "test:     ✅ テストの追加/更新/合格",
       value: ":white_check_mark: test",
     },
@@ -51,10 +39,6 @@ const config = {
     {
       name: "package:  📦 パッケージの追加/更新",
       value: ":package: package",
-    },
-    {
-      name: "WIP:      🚧 作業途中",
-      value: ":construction: WIP",
     },
   ],
   messages: {
