@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="176.633" viewBox="0 0 200 176.633">
   <g transform="translate(-13.229 -264.15)">
-    <path
+    <path fill="pink"
       d="M155.456,264.15V403.126h39.492V264.15ZM93.6,305.157v97.969h39.492V305.157ZM31.745,350.724v52.4H71.229v-52.4ZM13.229,419.868v20.914h200V419.868Z"
       transform="translate(0 0)" />
   </g>
