@@ -1,3 +1,4 @@
+import { OrganismsFooter } from "@/components/organisms/OrganismsFooter";
 import { OrganismsHeader } from "@/components/organisms/OrganismsHeader";
 import type { FC, ReactNode } from "react";
 import styles from "./index.module.scss";
@@ -19,6 +20,7 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
     <>
       <OrganismsHeader />
       <main className={styles.mainLayout}>{children}</main>
+      <OrganismsFooter />
     </>
   );
 };
