@@ -1,0 +1,11 @@
+/**
+ * @file Breakpointの定義
+ */
+
+@use '@/styles/variables.scss' as *;
+
+@mixin pc {
+  @media only screen and (min-width: $breakpoint-sp) {
+    @content;
+  }
+}
