@@ -7,7 +7,7 @@ import styles from "./index.module.scss";
  */
 export const OrganismsHeader: FC = () => {
   return (
-    <header className={styles.header}>
+    <header className={styles.moduleRoot}>
       <AtomsHeading
         level="h1"
         text="都道府県別人口推移"
