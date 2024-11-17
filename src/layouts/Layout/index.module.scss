@@ -1,0 +1,12 @@
+@use '@/styles/breakpoint.scss' as *;
+@use '@/styles/variables.scss' as *;
+
+.mainLayout {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  @include pc {
+    max-width: $max-width-pc;
+  }
+}
