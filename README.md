@@ -10,5 +10,12 @@
 
 - [実施メモ](https://zenn.dev/soma3134/scraps/c72e4d98adae72)
 - [スケジュールと実績時間](https://docs.google.com/spreadsheets/d/1mCIdCQEmrdYK3PpxnrQxp0zwLRhffP5v7qkWHFOHIlI/edit?gid=567468278#gid=567468278)
-- 公開サイト
+- [公開サイト](https://yumemi-population-stats.netlify.app/)
 - Docs
+
+## Getting Started
+
+```sh
+npm ci
+npm run dev
+```
