@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "format": "biome format",
+    "lint": "biome lint",
+    "check": "biome check",
     "format:fix": "biome format --write",
     "lint:fix": "biome lint --write",
-    "check": "biome check",
     "check:fix": "biome check --write",
     "preview": "vite preview",
     "prepare": "husky",
