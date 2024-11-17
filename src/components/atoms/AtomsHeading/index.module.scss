@@ -1,0 +1,19 @@
+@use '@/styles/breakpoint.scss' as *;
+
+.heading1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  @include pc {
+    font-size: 2rem;
+  }
+}
+
+.heading2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  @include pc {
+    font-size: 1.5rem;
+  }
+}
